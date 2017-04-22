@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">ListaComprasDroid</string>
+    <string name="ApplicationName">Lista de Compras</string>
+    <string name="ListaCompras">Lista de Compras</string>
+    <string name="Produtos">Produtos</string>
+    <string name="NomeProduto">Nome do Produto</string>
+    <string name="QuantidadeProduto">Quantidade</string>
+    <string name="AdicionarProdutos">Adicionar Produtos</string>
+    <string name="BtnAdicionar">Adicionar</string>
+    <string name="BtnCancelar">Cancelar</string>
+    <string name="Sobre">Sobre</string>
+    <string name="SaibaMais">Saiba Mais</string>
 </resources>

@@ -57,11 +57,42 @@ namespace ListaComprasDroid
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int btnAdicionarProduto = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int btnProdutos = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int btnSobre = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int lstViewProdutos = 2131034115;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int AdicionarProdutoDialog = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Produtos = 2130903042;
 			
 			static Layout()
 			{
@@ -76,11 +107,38 @@ namespace ListaComprasDroid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040006
+			public const int AdicionarProdutos = 2130968582;
+			
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
+			// aapt resource value: 0x7f040007
+			public const int BtnAdicionar = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int BtnCancelar = 2130968584;
+			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int ListaCompras = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int NomeProduto = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int Produtos = 2130968579;
+			
+			// aapt resource value: 0x7f040005
+			public const int QuantidadeProduto = 2130968581;
+			
+			// aapt resource value: 0x7f04000a
+			public const int SaibaMais = 2130968586;
+			
+			// aapt resource value: 0x7f040009
+			public const int Sobre = 2130968585;
 			
 			static String()
 			{
