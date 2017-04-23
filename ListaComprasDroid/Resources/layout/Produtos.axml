@@ -4,22 +4,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtProduto"
+            android:hint="@string/NomeProduto" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/txtQuantidadeProduto"
+            android:hint="@string/QuantidadeProduto" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/AdicionarProdutos"
             android:id="@+id/btnAdicionarProduto" />
     </LinearLayout>
-<!--<LinearLayout
-        android:orientation="vertical"
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/lstViewProdutos" />
-    </LinearLayout>-->
+        android:layout_height="match_parent"
+        android:id="@+id/lstViewProdutos" />
 </LinearLayout>
