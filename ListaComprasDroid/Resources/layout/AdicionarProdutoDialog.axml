@@ -6,11 +6,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="+id/txtProduto"
+        android:id="@+id/txtProduto"
         android:hint="@string/NomeProduto" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="+id/txtQuantidadeProduto"
+        android:id="@+id/txtQuantidadeProduto"
         android:hint="@string/QuantidadeProduto" />
 </LinearLayout>
