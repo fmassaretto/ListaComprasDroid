@@ -18,8 +18,18 @@ namespace ListaComprasDroid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.Sobre);
             // Create your application here
+            FindViewById<Button>(Resource.Id.btnSaibaMais).Click += OnSaibaMaisClick;
+        }
+
+        private void OnSaibaMaisClick(object sender, EventArgs e)
+        {
+            Intent intent = new Intent();
+            intent.SetAction(Intent.ActionView);
+            intent.SetData(Android.Net.Uri.Parse("https://geolocationfb.azurewebsites.net/"));
+
+            StartActivity(intent);
         }
     }
 }

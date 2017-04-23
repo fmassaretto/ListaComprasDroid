@@ -11,4 +11,15 @@
     <string name="BtnCancelar">Cancelar</string>
     <string name="Sobre">Sobre</string>
     <string name="SaibaMais">Saiba Mais</string>
+    <string name="TextoSobre">Lorem ipsum dolor sit amet, 
+    consectetur adipiscing elit. Quisque commodo nibh ac dui 
+    semper, ut ornare ante bibendum. Nulla dictum hendrerit 
+    sodales. Morbi fringilla finibus felis non rutrum. 
+    Suspendisse potenti. Donec porttitor odio diam, in 
+    auctor nibh ornare nec. Duis id aliquet tortor, non 
+    pellentesque justo. Cras hendrerit mi in enim placerat, 
+    vitae ultricies est mollis. Etiam ut lectus at nisi 
+    ullamcorper iaculis. Nullam et risus eget enim maximus 
+    efficitur vitae vitae dui. Nulla in eros dolor. Aliquam 
+    mattis orci orci, quis congue sapien tincidunt id.</string>
 </resources>

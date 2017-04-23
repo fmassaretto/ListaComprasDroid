@@ -66,6 +66,9 @@ namespace ListaComprasDroid
 			// aapt resource value: 0x7f050002
 			public const int btnProdutos = 2131034114;
 			
+			// aapt resource value: 0x7f050006
+			public const int btnSaibaMais = 2131034118;
+			
 			// aapt resource value: 0x7f050003
 			public const int btnSobre = 2131034115;
 			
@@ -148,6 +151,9 @@ namespace ListaComprasDroid
 			
 			// aapt resource value: 0x7f040009
 			public const int Sobre = 2130968585;
+			
+			// aapt resource value: 0x7f04000b
+			public const int TextoSobre = 2130968587;
 			
 			static String()
 			{
