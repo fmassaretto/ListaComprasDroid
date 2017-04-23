@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace ListaComprasDroid
 {
-    [Activity(Label = "SobreActivity")]
+    [Activity(Label = "Sobre...")]
     public class SobreActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

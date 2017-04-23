@@ -10,7 +10,7 @@ using Android.Runtime;
 
 namespace ListaComprasDroid
 {
-    [Activity(Label = "ProdutosActivity")]
+    [Activity(Label = "Lista de Produtos")]
     public class ProdutosActivity : Activity
     {
         Produtos produtos;
