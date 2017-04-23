@@ -60,17 +60,23 @@ namespace ListaComprasDroid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050004
+			public const int btnAdicionarProduto = 2131034116;
+			
 			// aapt resource value: 0x7f050002
-			public const int btnAdicionarProduto = 2131034114;
-			
-			// aapt resource value: 0x7f050000
-			public const int btnProdutos = 2131034112;
-			
-			// aapt resource value: 0x7f050001
-			public const int btnSobre = 2131034113;
+			public const int btnProdutos = 2131034114;
 			
 			// aapt resource value: 0x7f050003
-			public const int lstViewProdutos = 2131034115;
+			public const int btnSobre = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int lstViewProdutos = 2131034117;
+			
+			// aapt resource value: 0x7f050000
+			public const int txtProduto = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int txtQuantidadeProduto = 2131034113;
 			
 			static Id()
 			{
@@ -93,6 +99,9 @@ namespace ListaComprasDroid
 			
 			// aapt resource value: 0x7f030002
 			public const int Produtos = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Sobre = 2130903043;
 			
 			static Layout()
 			{

@@ -57,6 +57,8 @@
     <Compile Include="ProdutosActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\Produtos.cs" />
+    <Compile Include="SobreActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -66,6 +68,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\AdicionarProdutoDialog.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Sobre.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
