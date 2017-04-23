@@ -6,11 +6,9 @@ using Android.Content;
 
 namespace ListaComprasDroid
 {
-    [Activity(Label = "ListaComprasDroid", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        Button produtos;
-        Button sobre;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -18,14 +16,14 @@ namespace ListaComprasDroid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            produtos = (Button)FindViewById(Resource.Id.btnProdutos);
+            var produtos = FindViewById<Button>(Resource.Id.btnProdutos);
             produtos.Click += (sender, e) => {
                 StartActivity(typeof(ProdutosActivity));
             };
 
-            sobre = (Button)FindViewById(Resource.Id.btnSobre);
+            var sobre = FindViewById<Button>(Resource.Id.btnSobre);
             sobre.Click += (sender, e) => {
-                StartActivity(typeof(ProdutosActivity));
+                StartActivity(typeof(SobreActivity));
             };
             
         }
